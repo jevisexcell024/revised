@@ -1,0 +1,401 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines{
+    display: none;
+}
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+.navbar{
+    /* box-shadow: 0px 5px 10px 0px #aaa; */
+    position: fixed;
+    width: 100%;
+    /* background: #fff; */
+    background: #000000b4;
+    height: 40px;
+
+    color: #ffffff;
+    /* opacity: 0.85; */
+    z-index: 100;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    /* height: 64px; */
+    align-items: center;
+}
+
+.menu-items{
+    order: 2;
+    display: flex;
+}
+.logo{
+    order: 1;
+    font-size: 2.3rem;
+}
+
+.menu-items li{
+    list-style: none;
+    margin-left: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.navbar a{
+    color: #fff;
+}
+
+.up{
+    /* font-size: 1.4rem; */
+    color: darkorange;
+}
+.size{
+    font-size: 1.5rem;
+}
+.front-page{
+    min-height: 100vh;
+}
+.page-in{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(23, 23, 21, 0.805), rgba(42, 39, 41, 0.532)),url(pix/berky/front-page.jpeg);
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: blur(8px); */
+}
+.logo-in{
+    background: url(pix/hype.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: 400px;
+}
+.page-in-text{
+    text-align: center;
+font-size: 3rem;
+color: #fff;
+}
+.big{
+    font-size: 4rem;
+}
+.h1-under{
+    color: #fff;
+    text-align: center;
+    font-size: 3.4rem;
+}
+.imagine{
+    text-align: center;
+    color: #fff;
+    word-spacing: 1.8rem;
+    letter-spacing: .3rem;
+}
+.logo-down{
+    background: url(pix/hype.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: -90px;
+    left: 1000px;
+}
+.re-size{
+    font-size:4.9rem;
+}
+.three-side{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 40px;
+}
+.img-1{
+    background: linear-gradient(to top, rgba(23, 23, 21, 0.805), rgba(42, 39, 41, 0.532)),url(pix/campus.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -110px;
+    height: 250px;
+    width: 330px;
+}
+ .img-2{
+    background: linear-gradient(to top, rgba(23, 23, 21, 0.805), rgba(42, 39, 41, 0.532)),url(pix/images.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -110px;
+    height: 250px;
+    width: 330px;
+} 
+.img-3{
+    background: linear-gradient(to top, rgba(23, 23, 21, 0.805), rgba(42, 39, 41, 0.532)),url(pix/brand-flyer.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -110px;
+    height: 250px;
+    width: 330px;
+}
+.text-img{
+  text-align: center;
+  margin-top: 7.4rem;
+  color: #fff;
+  font-size: 2.1rem;
+}
+   .icons{
+    font-size: 4rem;
+    /* position: relative; */
+    text-align: center;
+    margin-top: 6rem;
+    /* color: #fff; */
+   }
+.icons a {
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.6;
+    z-index: 1;
+  }
+  .icons a:hover {
+    text-decoration: none;
+    opacity: 1;
+    color: #252525;
+    transition: 0.5s;
+  }
+  #fade {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+  }
+  #light {
+    display: none;
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    /* width: 100%; */
+    max-width: 600px;
+    max-height: 360px;
+    margin-left: -550px;
+    margin-top: -350px;
+    z-index: 1002;
+    overflow: visible;
+  }
+  
+.about{
+    padding-top: 60px;
+    min-height: 70vh;
+}
+.about-text{
+    text-transform:uppercase;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+font-style: italic;
+}
+.port{
+    text-align: center;
+    color: #270d0dc2;
+}
+.image-about{
+    background:url(pix/bec.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 400px;  
+}
+.flex-about{
+    margin-top: 50px;
+    /* align-content: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+   
+
+    /* margin-left: 300px; */
+}
+.lorem{
+    width:500px;
+}
+.push{
+margin-top: 30px;
+}
+.small-header{
+    min-height: 160vh;
+    padding-top: 50px;
+}
+.header-info-text{
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(to top, rgba(23, 23, 21, 0.805), rgba(42, 39, 41, 0.532)),url(pix/berky/front-side.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.picx{
+text-align: center;
+/* margin-top: 50px; */
+position: relative;
+top: 140px;
+font-size: 3rem;
+color: #fff;
+}
+.now-here{
+    position: relative;
+    top: 300px;
+}
+.flows{
+    /* display: flex; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    /* min-height: 100vh; */
+}
+.flows-1{
+    display: flex;
+    gap: 10px;
+}
+.cards-flow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: px; */
+}
+.input-cards{
+    height: 250px;
+    width: 330px;
+    background: linear-gradient(to top, rgba(23, 23, 21, 0.805), rgba(42, 39, 41, 0.532)),url(pix/campus.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.input-cards-1{
+    height: 430px;
+    width: 330px;
+    background: url(pix/por-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.input-cards-2{
+    height: 260px;
+    width: 330px;
+    background: url(pix/berky/front-page.jpeg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.input-cards-3{
+    height: 430px;
+    width: 330px;
+    background: url(pix/por-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.input-cards-4{
+    height: 290px;
+    width: 400px;
+    background: url(pix/campus.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.input-cards-5{
+    height: 430px;
+    width: 330px;
+    background: url(pix/por-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.input-cards-6{
+    height: 270px;
+    width: 430px;
+    background: url(pix/flower.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flyer{
+    min-height: 100vh;
+    padding-top: 40px;
+    background: #0000003f;
+}
+.flyer-now{
+    /* position: relative;
+    top: 700px; */
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(to top, rgba(23, 23, 21, 0.805), rgba(42, 39, 41, 0.532)),url(pix/berky/front-side.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.final{
+    text-align: center;
+    position: relative;
+    top: 88px;
+    color: #d67f05;
+    font-size: 2rem;
+}
+.height{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+.flyer-info{
+    width: 500px;
+    height: 400px;
+    background:url(pix/about.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.flyer-info-1{
+    width: 500px;
+    height: 400px;
+    background:url(pix/brand-flyer.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+
+
+
+
+
+
